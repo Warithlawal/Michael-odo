@@ -438,7 +438,7 @@ nav .fas {
         font-size: 25px;
     }
     nav ul {
-        background-color: white;
+        background-color: hsla(0, 0%, 0%, .15);
         position: fixed;
         top: -200%;
         left: 0;
@@ -447,7 +447,7 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
-        backdrop-filter: blur(1px);
+        backdrop-filter: blur(10px);
         text-align: center;
     }
     .contact-me-button {
