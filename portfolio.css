@@ -662,7 +662,7 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
-        backdrop-filter: blur(80px);
+        backdrop-filter: blur(100px);
         text-align: center;
     }
 
