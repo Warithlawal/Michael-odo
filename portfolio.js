@@ -34,11 +34,15 @@ function closemenu() {
     sidemenu.style.right = "-200px";
 }*/
 
-const accordion = document.getElementsByClassName('card-details');
+const accordionItems = document.querySelectorAll('.card-details-1, .card-details-2, .card-details-3');
 
-for (i = 0; i < accordion.length; i++) {
+accordionItems.forEach(item => {
+    item.addEventListener('click', function () {
+        // Toggle 'active' class on the clicked element's product links
+        const links = this.querySelectorAll('.product-link a');
+        links.forEach(link => link.classList.toggle('active'));
+    });
+});
 
-    accordion[i].addEventListener('click', function () {
-        this.classList.toggle('active');
-    })
-}
+
+

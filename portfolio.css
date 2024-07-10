@@ -11,8 +11,8 @@ html {
 
 #header {
     width: 100%;
-    height: 100%;
-    background-image: url(Images/background.png);
+    height: 100vh;
+    background: url(Images/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -234,7 +234,7 @@ nav ul li a:hover {
 }
 
 .exp-bottom {
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .experience h1 {
@@ -273,6 +273,7 @@ nav ul li a:hover {
 
 .experience-line {
     width: 30px;
+    height: 420px;
     position: absolute;
 }
 
@@ -318,18 +319,18 @@ nav ul li a:hover {
     width: 10px;
 }
 
-.card-details {
+.card-details-1, .card-details-2, .card-details-3 {
     padding: 30px;
     margin-bottom: 10px;
 }
 
-.card-details p {
+.card-details-1 p, .card-details-2 p, .card-details-3 p {
    font-size: 14.5px;
    line-height: 22px;
    margin-bottom: 20px;
 }
 
-.card-details a {
+.card-details-1 a, .card-details-2 a, .card-details-3 a {
    text-decoration: none;
    color: black;
 }
@@ -340,12 +341,10 @@ nav ul li a:hover {
     margin-bottom: 5px;
     height: 0px;
     overflow: hidden;
-    transition: .5s;
-   
-    
+    transition: .5s, padding 0.5s;
 }
 
-.project-cards .active .product-link a {
+.product-link a.active {
     height: 60px;
     padding: 15px 10px;
 }
@@ -609,7 +608,7 @@ nav .fas {
    }
 
    .footer-icons img {
-   width: 25px;
+        width: 25px;
     }
 
     .terms-list ul {
@@ -652,6 +651,7 @@ nav .fas {
         display: block;
         font-size: 25px;
     }
+
     nav ul {
         background-color: hsla(0, 0%, 0%, .15);
         position: fixed;
@@ -662,13 +662,15 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(80px);
         text-align: center;
     }
 
     nav ul li a{
         color: white;
+        font-weight: bold;
     }
+
     .contact-me-button {
         margin: 0 auto;
     }
