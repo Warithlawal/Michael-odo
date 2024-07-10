@@ -437,7 +437,7 @@ nav .fas {
         font-size: 25px;
     }
     nav ul {
-        background-color: hsla(0, 0%, 0%, 0.5);
+        background-color: hsla(0, 0%, 0%, 0.8);
         position: fixed;
         top: -200%;
         left: 0;
@@ -446,7 +446,7 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
-        backdrop-filter: blur(100px);
+        backdrop-filter: blur(200px);
         text-align: center;
     }
     .contact-me-button {
@@ -653,7 +653,7 @@ nav .fas {
     }
 
     nav ul {
-        background-color: hsla(0, 0%, 0%, 0.5);
+        background-color: hsla(0, 0%, 0%, 0.8);
         position: fixed;
         top: -200%;
         left: 0;
@@ -662,7 +662,7 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
-        backdrop-filter: blur(100px);
+        backdrop-filter: blur(200px);
         text-align: center;
     }
 
