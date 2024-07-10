@@ -467,6 +467,7 @@ nav .fas {
 
     .show-menu {
         top: 0;
+        background-color: black;
     }
 
     #header {
@@ -689,6 +690,7 @@ nav .fas {
 
     .show-menu {
         top: 0;
+         background-color: black;
     }
 
     .about {
