@@ -446,6 +446,7 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
+        backdrop-filter: blur(100px);
         text-align: center;
     }
     .contact-me-button {
@@ -661,11 +662,12 @@ nav .fas {
         padding-top: 50px;
         z-index: 2;
         transition: top 0.5s;
+        backdrop-filter: blur(100px);
         text-align: center;
     }
 
     nav ul li a{
-        color: black;
+        color: white;
         font-weight: bold;
     }
 
