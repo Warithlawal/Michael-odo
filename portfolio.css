@@ -115,16 +115,18 @@ nav ul li a:hover {
 
 .header button {
     background-color: #5E3BEE;
-    border: none;
+    border: 0.5px solid white;
+    color: white;
     border-radius: 5px;
     padding: 15px 50px;
-    color: white;
     cursor: pointer;
 }
 
-.header button a {
-    color: #ffffff;
-    text-decoration: none;
+.header button:hover{
+    background-color: transparent;
+     color: #5E3BEE;
+     transition: .4s;
+     border: 0.5px solid #5E3BEE;
 }
 
 .header img {
@@ -161,6 +163,7 @@ nav ul li a:hover {
     border-radius: 5px;
     width: 100%;
     font-size: 15px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 .expertise-grid-border {
